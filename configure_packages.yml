@@ -30,3 +30,4 @@
           - libapache2-mod-php
           - libapache2-mod-php8.3
         state: absent
+        purge: yes
