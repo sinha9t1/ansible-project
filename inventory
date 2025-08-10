@@ -1,8 +1,8 @@
 [web]
-192.168.184.134
+192.168.184.134 ansible_user=devops
 
 [db]
-192.168.184.133
+192.168.184.133 ansible_user=devops
 
 [prod]
-192.168.184.51 ansible_user=devops ansible_ssh_private_key_file=~/.ssh/authorized_keys
+192.168.184.51 ansible_user=devops ansible_ssh_private_key_file=~/.ssh/client3_key
